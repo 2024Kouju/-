@@ -16,8 +16,8 @@ public class ResetGame : MonoBehaviour
     public CoinManager coinManager;//CoinManagerを参照
     public AudioSource Button_Audio;////ボタンの上にマウスポインタが来た時に再生するためのAudioSource
     bool first_Button = false;
-    const int FRIEND_HP = 3;
-    const int FRIEND_BULLET = 1;
+    const int FRIEND_HP = 1;
+    const int FRIEND_BULLET = 3;
     const int PLAYER_BULLET = 5;
     const int COIN_COUNT = 0;
     void Start()

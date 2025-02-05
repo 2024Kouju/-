@@ -6,7 +6,7 @@ public class FriendBullet_Damage : MonoBehaviour
 {
     public float speed = 20f;     // ’e‚Ì‘¬“x
     public float lifeTime = 2f;   // ’e‚Ìõ–½
-    public static float damage = 1f; // ’e‚Ìƒ_ƒ[ƒW
+    public static float damage = 3f; // ’e‚Ìƒ_ƒ[ƒW
 
     void Start()
     {
@@ -14,7 +14,7 @@ public class FriendBullet_Damage : MonoBehaviour
         rb.velocity = transform.forward * speed;
 
         // ’e‚ÌˆĞ—Í‚ğPlayerPrefs‚©‚ç“Ç‚İ‚Ş
-        damage = PlayerPrefs.GetFloat("BulletFriendDamage", 1f);
+        damage = PlayerPrefs.GetFloat("BulletFriendDamage", 3f);
 
         Destroy(gameObject, lifeTime);  // ˆê’èŠÔŒã‚É’e‚ğíœ
     }
