@@ -559,5 +559,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1343143458382376570, guid: d21ac3c8996e2a34a9e339196f3d51d1, type: 3}
+      propertyPath: BGM
+      value: 
+      objectReference: {fileID: 251656452}
+    - target: {fileID: 1343143458382376570, guid: d21ac3c8996e2a34a9e339196f3d51d1, type: 3}
+      propertyPath: sceneName
+      value: Stage2 normal
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343143458640193208, guid: d21ac3c8996e2a34a9e339196f3d51d1, type: 3}
+      propertyPath: BGM
+      value: 
+      objectReference: {fileID: 251656452}
+    - target: {fileID: 1343143458640193208, guid: d21ac3c8996e2a34a9e339196f3d51d1, type: 3}
+      propertyPath: sceneName
+      value: StageSelect
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d21ac3c8996e2a34a9e339196f3d51d1, type: 3}

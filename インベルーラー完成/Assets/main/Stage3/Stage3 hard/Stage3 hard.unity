@@ -351,6 +351,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 24.38
       objectReference: {fileID: 0}
+    - target: {fileID: 7374895098262339888, guid: 2cfac6cf0cc3037438541d8e7f5589d6, type: 3}
+      propertyPath: BGM
+      value: 
+      objectReference: {fileID: 1995705244}
+    - target: {fileID: 7374895098262339888, guid: 2cfac6cf0cc3037438541d8e7f5589d6, type: 3}
+      propertyPath: friendController
+      value: 
+      objectReference: {fileID: 1069158763}
+    - target: {fileID: 7374895098262339888, guid: 2cfac6cf0cc3037438541d8e7f5589d6, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 8207307331577637638}
+    - target: {fileID: 7374895098262339888, guid: 2cfac6cf0cc3037438541d8e7f5589d6, type: 3}
+      propertyPath: friendController2
+      value: 
+      objectReference: {fileID: 1988641992}
     - target: {fileID: 7374895098554800370, guid: 2cfac6cf0cc3037438541d8e7f5589d6, type: 3}
       propertyPath: m_FontData.m_FontSize
       value: 45
@@ -363,6 +379,42 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7374895099514492602, guid: 2cfac6cf0cc3037438541d8e7f5589d6, type: 3}
+      propertyPath: BGM
+      value: 
+      objectReference: {fileID: 1995705244}
+    - target: {fileID: 7374895099514492602, guid: 2cfac6cf0cc3037438541d8e7f5589d6, type: 3}
+      propertyPath: friendController
+      value: 
+      objectReference: {fileID: 1069158763}
+    - target: {fileID: 7374895099514492602, guid: 2cfac6cf0cc3037438541d8e7f5589d6, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 8207307331577637638}
+    - target: {fileID: 7374895099514492602, guid: 2cfac6cf0cc3037438541d8e7f5589d6, type: 3}
+      propertyPath: friendController2
+      value: 
+      objectReference: {fileID: 1988641992}
+    - target: {fileID: 7374895099635375585, guid: 2cfac6cf0cc3037438541d8e7f5589d6, type: 3}
+      propertyPath: BGM
+      value: 
+      objectReference: {fileID: 1995705244}
+    - target: {fileID: 7374895099635375585, guid: 2cfac6cf0cc3037438541d8e7f5589d6, type: 3}
+      propertyPath: sceneName
+      value: Stage3 hard result
+      objectReference: {fileID: 0}
+    - target: {fileID: 7374895099635375585, guid: 2cfac6cf0cc3037438541d8e7f5589d6, type: 3}
+      propertyPath: friendController
+      value: 
+      objectReference: {fileID: 1069158763}
+    - target: {fileID: 7374895099635375585, guid: 2cfac6cf0cc3037438541d8e7f5589d6, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 8207307331577637638}
+    - target: {fileID: 7374895099635375585, guid: 2cfac6cf0cc3037438541d8e7f5589d6, type: 3}
+      propertyPath: friendController2
+      value: 
+      objectReference: {fileID: 1988641992}
     - target: {fileID: 7465756422698788892, guid: 2cfac6cf0cc3037438541d8e7f5589d6, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1600,6 +1652,17 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 1129553882, guid: acecde0d711771b40a71d565079fe852, type: 3}
   m_PrefabInstance: {fileID: 1069158761}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1069158763 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8360514047648146266, guid: acecde0d711771b40a71d565079fe852, type: 3}
+  m_PrefabInstance: {fileID: 1069158761}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520490463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f0413dc9c2a39045ba2aa88d7c7a482, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1090850621
 GameObject:
   m_ObjectHideFlags: 0
@@ -3186,6 +3249,17 @@ PrefabInstance:
     - {fileID: 5374074079745474929, guid: 104d7d4b5b097784188edb61e1d79c36, type: 3}
     - {fileID: 5835239942681345696, guid: 104d7d4b5b097784188edb61e1d79c36, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 104d7d4b5b097784188edb61e1d79c36, type: 3}
+--- !u!114 &8207307331577637638 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5076256397953372999, guid: 104d7d4b5b097784188edb61e1d79c36, type: 3}
+  m_PrefabInstance: {fileID: 8207307331577637637}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337867311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5382f32aa9569b74c96c4ecde3d1db59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8396942342433032718
 PrefabInstance:
   m_ObjectHideFlags: 0
